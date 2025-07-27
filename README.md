@@ -289,13 +289,6 @@ part2-persona-analysis/
     └── challenge1b_output.json
 ```
 
-## 🏆 Scoring Expectations
-
-This solution is designed to achieve:
-- **60 points**: High-quality section relevance matching
-- **40 points**: Detailed subsection analysis and ranking  
-- **Total**: 100/100 points
-
 The semantic AI approach ensures content is matched by meaning rather than just keywords, providing superior relevance for diverse document types and user needs.
 
 ## 🚀 Next Steps
