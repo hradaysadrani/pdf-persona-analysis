@@ -1,0 +1,75 @@
+{
+    "metadata": {
+        "input_documents": [
+            "South of France - Cities.pdf",
+            "South of France - Cuisine.pdf",
+            "South of France - History.pdf",
+            "South of France - Restaurants and Hotels.pdf",
+            "South of France - Things to Do.pdf",
+            "South of France - Tips and Tricks.pdf",
+            "South of France - Traditions and Culture.pdf"
+        ],
+        "persona": "Travel Planner",
+        "job_to_be_done": "Plan comprehensive itinerary with activities, accommodations, and practical recommendations",
+        "processing_timestamp": "2025-07-27T17:24:41.621197"
+    },
+    "extracted_sections": [
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "section_title": "Document Content",
+            "importance_rank": 1,
+            "page_number": 1
+        },
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "section_title": "Gadgets and Accessories",
+            "importance_rank": 2,
+            "page_number": 4
+        },
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "section_title": "City Exploration",
+            "importance_rank": 3,
+            "page_number": 7
+        },
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "section_title": "Conclusion",
+            "importance_rank": 4,
+            "page_number": 9
+        },
+        {
+            "document": "South of France - Restaurants and Hotels.pdf",
+            "section_title": "Document Content",
+            "importance_rank": 5,
+            "page_number": 9
+        }
+    ],
+    "subsection_analysis": [
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "refined_text": "• Day Bag: A small, secure day bag for carrying essentials like water, snacks, and a camera. • Comfortable Shoes: Wear comfortable walking shoes for exploring cities. • Guidebook: A guidebook or map t",
+            "page_number": 7
+        },
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "refined_text": "• Electronics: Smartphone, charger, power bank, and other devices. • Camera: Capture memories with a camera, extra batteries, and memory cards. • Books and Entertainment: A book, e-reader, or tablet for entertainment during travel. • Additional Tips: Download maps and travel guides to your devices for oﬄine use",
+            "page_number": 4
+        },
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "refined_text": "• Day Bag: A small, secure day bag for carrying essentials like water, snacks, and a camera. • Comfortable Shoes: Wear comfortable walking shoes for exploring cities. • Guidebook: A guidebook or map to help navigate and find points of interest. • Additional Tips: Use a money belt or hidden pouch to keep valuables safe",
+            "page_number": 7
+        },
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "refined_text": "Packing for a trip to the South of France involves considering the season, planned activities, and the needs of both adults and children. By following this comprehensive guide and incorporating the ti",
+            "page_number": 9
+        },
+        {
+            "document": "South of France - Restaurants and Hotels.pdf",
+            "refined_text": "Family-Friendly Hotels • Club Med Opio en Provence (Opio): A family-friendly resort oﬀering a wide range of activities for children and adults, including sports, entertainment, and kids' clubs. The beautiful setting and all-inclusive amenities make it a hassle-free vacation spot. • Le Mas de Pierre (Saint-Paul-de-Vence): A luxurious family-friendly hotel oﬀering spacious rooms, beautiful gardens, and a variety of activities for children. The elegant decor and attentive service ensure a comfortable stay for families",
+            "page_number": 9
+        }
+    ]
+}
