@@ -11,6 +11,21 @@ This solution automatically:
 - **Ranks sections by relevance** using semantic AI analysis
 - **Extracts key subsections** with detailed text for actionable insights
 
+## 📁 File Structure
+
+```
+part2-persona-analysis/
+├── persona_analyzer.py       # Main AI analysis script
+├── Dockerfile                # Container with AI model
+├── requirements.txt           # Python dependencies  
+├── README.md                 # This file
+├── TECHNICAL_GUIDE.md        # Debugging guide
+├── approach_explanation.md   # Methodology explanation
+├── input/                    # Put PDF collections here
+└── output/                   # Results appear here
+    └── challenge1b_output.json
+```
+
 ## 🚀 Quick Start (For Complete Beginners)
 
 ### Step 1: Install Docker
@@ -274,20 +289,7 @@ docker run --rm \
 python ../validate.py 1b output/challenge1b_output.json
 ```
 
-## 📁 File Structure
 
-```
-part2-persona-analysis/
-├── persona_analyzer.py       # Main AI analysis script
-├── Dockerfile                # Container with AI model
-├── requirements.txt           # Python dependencies  
-├── README.md                 # This file
-├── TECHNICAL_GUIDE.md        # Debugging guide
-├── approach_explanation.md   # Methodology explanation
-├── input/                    # Put PDF collections here
-└── output/                   # Results appear here
-    └── challenge1b_output.json
-```
 
 The semantic AI approach ensures content is matched by meaning rather than just keywords, providing superior relevance for diverse document types and user needs.
 
