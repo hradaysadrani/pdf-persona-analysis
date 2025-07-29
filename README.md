@@ -282,3 +282,10 @@ After running the analysis:
 4. **Process new document collections** for different tasks
 
 The AI learns from your document patterns and provides increasingly relevant results! 
+
+## 🎯 Future Upgrades
+
+In future, we are planning to add:
+- **Better LLM models** so as to get better and more accurate output
+- **JSON based input for persona and job-to-be-done** so as to get better developer experience.
+- And many more in pipeline!!
