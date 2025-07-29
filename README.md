@@ -62,17 +62,7 @@ docker build --platform linux/amd64 -t persona-analyzer .
 
 ### Step 4: Run the Analysis
 
-**Option A: Automatic Detection (Recommended)**
-The system automatically detects your persona and job based on document types:
-```bash
-docker run --rm \
-  -v $(pwd)/input:/app/input \
-  -v $(pwd)/output:/app/output \
-  --network none \
-  persona-analyzer
-```
-
-**Option B: Specify Custom Persona and Job**
+**Option A: Specify Custom Persona and Job**
 ```bash
 docker run --rm \
   -v $(pwd)/input:/app/input \
@@ -86,6 +76,16 @@ docker run --rm \
 **For Windows PowerShell:**
 ```powershell
 docker run --rm -v ${PWD}/input:/app/input -v ${PWD}/output:/app/output -e PERSONA="Research Student" -e JOB_TO_BE_DONE="Prepare literature review" --network none persona-analyzer
+```
+
+**Option B: Automatic Detection**
+The system automatically detects your persona and job based on document types:
+```bash
+docker run --rm \
+  -v $(pwd)/input:/app/input \
+  -v $(pwd)/output:/app/output \
+  --network none \
+  persona-analyzer
 ```
 
 ### Step 5: Analyze Results
