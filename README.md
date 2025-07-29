@@ -271,26 +271,6 @@ docker run --rm \
 - No clear paragraph structure
 - Content not relevant to query
 
-## 🧪 Testing with Adobe Test Cases
-
-```bash
-# Test with Adobe Collection 1 (Travel Planning)
-cp ../Adobe-India-Hackathon25/Challenge_1b/Collection\ 1/PDFs/*.pdf input/
-
-docker run --rm \
-  -v $(pwd)/input:/app/input \
-  -v $(pwd)/output:/app/output \
-  -e PERSONA="Travel Planner" \
-  -e JOB_TO_BE_DONE="Plan a trip of 4 days for a group of 10 college friends" \
-  --network none \
-  persona-analyzer
-
-# Validate output
-python ../validate.py 1b output/challenge1b_output.json
-```
-
-
-
 The semantic AI approach ensures content is matched by meaning rather than just keywords, providing superior relevance for diverse document types and user needs.
 
 ## 🚀 Next Steps
